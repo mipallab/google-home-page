@@ -1,0 +1,175 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'arial', sans-serif;
+}
+section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+section header {
+    position: absolute;
+    top:0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px;
+}
+section header ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+section header ul li {
+    margin-right:20px;
+}
+section header ul li a {
+    text-decoration: none;
+}
+section header ul li a:hover {
+    text-decoration: underline;
+}
+section header ul li img {
+    width: 25px;
+    height:25px;
+    cursor: pointer;
+    
+    padding: 10px;
+    
+}
+section header ul li img:hover {
+    background-color:rgba(204, 204, 204, 0.603);
+    border-radius: 50%;
+}
+section header ul li button {
+    color:white;
+    font-size: 16px;
+    background-color:#1a73e8;
+    padding:10px 30px;
+    outline:none;
+    border:none;
+    border-radius:5px;
+    cursor: pointer;
+}
+
+section .main {
+    width: 600px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+}
+
+/*====== search box start ========*/
+section .main .searchBox {
+    width: 100%;
+    position: relative;
+    margin-top:20px;
+}
+section .main .searchBox .search {
+    width: 100%;
+    padding:13px;
+    border-radius: 25px;
+    border:1px solid #dfe1e5;
+    font-size: 16px;
+    outline:none;
+    padding-left:50px;
+    padding-right: 100px;
+    box-sizing: border-box;
+}
+section .main .searchBox .search:hover,
+section .main .searchBox .search:focus {
+    background-color: #fff;
+    box-shadow: 0 1px 6px rgba(32,33,36,.28);
+    border-color: rgba(223,225,229,0);
+}
+section .main .searchBox .icons {
+    position:absolute;
+    top:0;
+    width:100%;
+    padding: 15px 20px;
+    display:flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    pointer-events: none;
+}
+section .main .searchBox .icons img {
+    width:13px;
+}
+section .main .searchBox .icons .iconRight {
+    position:absolute;
+    top:11px;
+    right:20px;
+}
+section .main .searchBox .icons .mic {
+    width:16px;
+    margin-right: 11px;
+}
+section .main .searchBox .icons .lence {
+    width:24px;
+}
+/*====== search box end ========*/
+
+
+/*====== button start ========*/
+section .main .buttons {
+    margin:40px;
+}
+section .main .buttons button {
+    padding:10px 20px; 
+    border:1px solid transparent;
+    cursor: pointer;
+    border-radius: 5px;
+}
+section .main .buttons button:hover {
+    border:1px solid #ccc;
+}
+/*====== button end ========*/
+
+/*====== language start ========*/
+section .main .language {
+    list-style:none;
+    display: flex;
+}
+section .main .language li {
+    font-size:14px;
+    margin
+}
+/*====== language end ========*/
+
+/*====== footer start ========*/
+footer {
+    width:100%;
+    position: absolute;
+    bottom:0;
+    background-color: #f2f2f2;
+}
+footer .row {
+    display: flex;
+    justify-content: space-between;
+}
+footer .row ul {
+    list-style: none;
+    display: flex;
+}
+footer .row li {
+    margin-right: 30px;
+}
+footer .row li a,
+footer p {
+    text-decoration: none;
+    color:#70757a;
+}
+footer .row li a:hover {
+    text-decoration:underline;
+}
+footer .row1,
+footer .row2 {
+    padding:20px;
+    border-bottom: 1px solid #dadce0;
+}
