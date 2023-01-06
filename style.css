@@ -56,6 +56,10 @@ section header ul li button {
     border-radius:5px;
     cursor: pointer;
 }
+section header ul li button:hover,
+section header ul li button:focus  {
+    background-color:#1b66c9;
+}
 
 section .main {
     width: 600px;
