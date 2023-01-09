@@ -1,0 +1,22 @@
+/* for 1200px up */
+@media screen and (max-width: 1200px) {
+    footer .row2 {
+        display:flex;
+        justify-content:space-around;
+    }
+}
+
+/* for 944px  */
+@media screen and (max-width: 944px) {
+
+    footer .row2 {
+        display:block;
+    }
+
+    footer .row2 ul {
+        display:flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+}
